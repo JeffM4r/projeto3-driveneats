@@ -3,22 +3,77 @@
 @media (max-width:614px){
 
     h1{
+        margin-left: 21px;
         font-family: 'Righteous', cursive;
         font-size: 44px;
     }
     h2{
+        margin-left: 21px;
         font-family: 'Roboto', sans-serif;
         font-size: 18px;
     }
     h3{
         font-family: 'Righteous', cursive;
+        font-size: 26px;
+        margin-top: 27px;
+        margin-bottom: 17px;
     }
     h4,p{
         font-family: 'Roboto', sans-serif;
     }
-
+    body{
+        background-color: #EEEEEE;
+        width: 100%;
+        margin-top:  122px;
+        margin-bottom: 92px;
+        margin-left: 19px;
+    }
     .topo{
         background-color: #CF2B2B;
+        width: 100%;
+        height: 92px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        left: 0;
     }
-    
+    .pratoprincipal{
+        display: flex;
+        width: 180% ;
+    }
+    .bebidas{
+        display: flex;
+        width: 250% ;
+    }
+    .sobremesa{
+        display: flex;
+        width: 180% ;        
+    }
+    .conteudos{
+        width: 172px;
+        height: 216px;
+        background-color: #FFFFFF;
+        box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+        border-radius: 9px;
+        margin-right: 16px;
+    }
+    .conteudos > div > img{
+        width: 144px;
+        height: 87px;
+        object-fit:cover;
+    }
+
+    .menuInferior{
+        width: 100%;
+        height: 92px;
+        background-color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
 }
