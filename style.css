@@ -132,7 +132,6 @@
         width: 60%;
         height: 61px;
         border-radius: 50px;
-        background: #CBCBCB;
         border: none;
         z-index: 1;
     }
@@ -144,5 +143,11 @@
     }
     .selecionado > ion-icon{
         visibility: visible;
+    }    
+    .confirmar{
+        background-color: #CBCBCB;
+    }
+    .selecionado2{
+        background-color: #32B72F;
     }
 }
